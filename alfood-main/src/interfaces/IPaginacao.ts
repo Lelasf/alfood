@@ -1,6 +1,6 @@
-export interface Ipaginacao<T> {
-    count: number,
-    next: string,
-    previous: string,
+export interface IPaginacao<T> {
+    count: number
+    next: string
+    previous: string
     results: T[]
 }
